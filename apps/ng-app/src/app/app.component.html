@@ -1,1 +1,6 @@
-<ng-react-wc-demo-nx-welcome></ng-react-wc-demo-nx-welcome>
+<button (click)="generate()">Generate</button>
+
+<div *ngFor="let title of titles">
+  <wc-title [title]="title"></wc-title>
+</div>
+
